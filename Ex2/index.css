@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    border: 1px solid #c5c5c5;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+}
+
+
+
+h2 {
+    color: #008060;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    color: #008060;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008060;
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-row label {
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.contact-row select {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
